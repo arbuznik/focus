@@ -1,0 +1,19 @@
+.page.theme_dark {
+    --bg-color: #000028;
+    --accent-color: #FF0070;
+    --header-title-color: #DB00FF;
+    --header-paragraph-font-color: #000028;
+    --header-nav-color: #FF0070;
+    --section-title-font-color: #FF0070;
+    --section-text-block-title-font-color: #000028;
+    --section-text-block-paragraph-font-color: #F1B2CE;
+    --background-image: url(../images/cover-image-dark.png);
+}
+
+.theme_dark .header__rec {
+    display: block;
+}
+
+.theme_dark .header__theme-menu-button:hover {
+    border: 1px solid rgba(105, 102, 95, 0.4);
+}
